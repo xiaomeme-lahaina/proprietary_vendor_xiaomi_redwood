@@ -1,7 +1,7 @@
 {
   "config":{
-    "hw_platform": ["MTP","QRD","LISA", "Surf", "RCM", "IDP"],
-    "soc_id": ["475"]
+    "hw_platform": ["MTP", "Surf", "RCM", "IDP", "MONA", "QRD"],
+    "soc_id": ["450", "475"]
   },
   "ak0991x_0_platform":{
     "owner": "sns_ak0991x",
@@ -13,8 +13,8 @@
       "bus_instance":{ "type": "int", "ver": "0",
         "data": "1"
       },
-      "slave_config":{ "type": "int", "ver": "0",
-        "data": "12"
+      "slave_config":{ "type": "int", "ver": "1",
+        "data": "14"
       },
       "i3c_address":{ "type": "int", "ver": "0",
         "data": "30"
@@ -58,11 +58,11 @@
     },
     ".orient":{
       "owner": "sns_ak0991x",
-      "x":{ "type": "str", "ver": "0",
-        "data": "+x"
+      "x":{ "type": "str", "ver": "2",
+        "data": "-y"
       },
-      "y":{ "type": "str", "ver": "0",
-        "data": "+y"
+      "y":{ "type": "str", "ver": "2",
+        "data": "+x"
       },
       "z":{ "type": "str", "ver": "0",
         "data": "+z"
@@ -74,32 +74,32 @@
         "owner": "sns_ak0991x",
         ".corr_mat":{
           "owner": "sns_ak0991x",
-          "0_0":{ "type": "flt", "ver": "0",
-            "data": "0.996902"
+          "0_0":{ "type": "flt", "ver": "2",
+            "data": "1.0"
           },
-          "0_1":{ "type": "flt", "ver": "0",
-            "data": "-0.013794"
-          },
-          "0_2":{ "type": "flt", "ver": "0",
+          "0_1":{ "type": "flt", "ver": "2",
             "data": "0.0"
           },
-          "1_0":{ "type": "flt", "ver": "0",
-            "data": "-0.013794"
+          "0_2":{ "type": "flt", "ver": "2",
+            "data": "0.0"
           },
-          "1_1":{ "type": "flt", "ver": "0",
-            "data": "0.997696"
+          "1_0":{ "type": "flt", "ver": "2",
+            "data": "0.0"
           },
-          "1_2":{ "type": "flt", "ver": "0",
-            "data": "-0.015106"
+          "1_1":{ "type": "flt", "ver": "2",
+            "data": "1.0"
           },
-          "2_0":{ "type": "flt", "ver": "0",
-            "data": "-0.018906"
+          "1_2":{ "type": "flt", "ver": "2",
+            "data": "0.0"
           },
-          "2_1":{ "type": "flt", "ver": "0",
-            "data": "-0.015106"
+          "2_0":{ "type": "flt", "ver": "2",
+            "data": "0.0"
           },
-          "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.005402"
+          "2_1":{ "type": "flt", "ver": "2",
+            "data": "0.0"
+          },
+          "2_2":{ "type": "flt", "ver": "2",
+            "data": "1.0"
           }
         },
         ".bias":{
@@ -157,86 +157,86 @@
     },
     ".pdc_parameter":{
       "owner": "sns_ak0991x",
-      "0":{ "type": "flt", "ver": "2",
-        "data": "176"
+      "0":{ "type": "flt", "ver": "4",
+        "data": "216"
       },
-      "1":{ "type": "flt", "ver": "2",
-        "data": "84"
+      "1":{ "type": "flt", "ver": "4",
+        "data": "86"
       },
-      "2":{ "type": "flt", "ver": "2",
-        "data": "106"
+      "2":{ "type": "flt", "ver": "4",
+        "data": "118"
       },
-      "3":{ "type": "flt", "ver": "2",
-        "data": "1"
-      },
-      "4":{ "type": "flt", "ver": "2",
-        "data": "220"
-      },
-      "5":{ "type": "flt", "ver": "2",
-        "data": "89"
-      },
-      "6":{ "type": "flt", "ver": "2",
-        "data": "1"
-      },
-      "7":{ "type": "flt", "ver": "2",
-        "data": "36"
-      },
-      "8":{ "type": "flt", "ver": "2",
-        "data": "213"
-      },
-      "9":{ "type": "flt", "ver": "2",
-        "data": "54"
-      },
-      "10":{ "type": "flt", "ver": "2",
-        "data": "202"
-      },
-      "11":{ "type": "flt", "ver": "2",
-        "data": "62"
-      },
-      "12":{ "type": "flt", "ver": "2",
+      "3":{ "type": "flt", "ver": "4",
         "data": "111"
       },
-      "13":{ "type": "flt", "ver": "2",
-        "data": "245"
+      "4":{ "type": "flt", "ver": "4",
+        "data": "171"
       },
-      "14":{ "type": "flt", "ver": "2",
-        "data": "255"
+      "5":{ "type": "flt", "ver": "4",
+        "data": "78"
       },
-      "15":{ "type": "flt", "ver": "2",
-        "data": "63"
+      "6":{ "type": "flt", "ver": "4",
+        "data": "254"
       },
-      "16":{ "type": "flt", "ver": "2",
-        "data": "1"
+      "7":{ "type": "flt", "ver": "4",
+        "data": "139"
       },
-      "17":{ "type": "flt", "ver": "2",
-        "data": "188"
+      "8":{ "type": "flt", "ver": "4",
+        "data": "218"
       },
-      "18":{ "type": "flt", "ver": "2",
-        "data": "155"
-      },
-      "19":{ "type": "flt", "ver": "2",
-        "data": "106"
-      },
-      "20":{ "type": "flt", "ver": "2",
-        "data": "189"
-      },
-      "21":{ "type": "flt", "ver": "2",
-        "data": "253"
-      },
-      "22":{ "type": "flt", "ver": "2",
-        "data": "77"
-      },
-      "23":{ "type": "flt", "ver": "2",
-        "data": "11"
-      },
-      "24":{ "type": "flt", "ver": "2",
-        "data": "9"
-      },
-      "25":{ "type": "flt", "ver": "2",
+      "9":{ "type": "flt", "ver": "4",
         "data": "57"
       },
-      "26":{ "type": "flt", "ver": "2",
-        "data": "16"
+      "10":{ "type": "flt", "ver": "4",
+        "data": "186"
+      },
+      "11":{ "type": "flt", "ver": "4",
+        "data": "3"
+      },
+      "12":{ "type": "flt", "ver": "4",
+        "data": "253"
+      },
+      "13":{ "type": "flt", "ver": "4",
+        "data": "179"
+      },
+      "14":{ "type": "flt", "ver": "4",
+        "data": "253"
+      },
+      "15":{ "type": "flt", "ver": "4",
+        "data": "179"
+      },
+      "16":{ "type": "flt", "ver": "4",
+        "data": "4"
+      },
+      "17":{ "type": "flt", "ver": "4",
+        "data": "139"
+      },
+      "18":{ "type": "flt", "ver": "4",
+        "data": "19"
+      },
+      "19":{ "type": "flt", "ver": "4",
+        "data": "126"
+      },
+      "20":{ "type": "flt", "ver": "4",
+        "data": "198"
+      },
+      "21":{ "type": "flt", "ver": "4",
+        "data": "4"
+      },
+      "22":{ "type": "flt", "ver": "4",
+        "data": "175"
+      },
+      "23":{ "type": "flt", "ver": "4",
+        "data": "91"
+      },
+      "24":{ "type": "flt", "ver": "4",
+        "data": "13"
+      },
+      "25":{ "type": "flt", "ver": "4",
+        "data": "5"
+      },
+      "26":{ "type": "flt", "ver": "4",
+        "data": "63"
       }
     }
   }

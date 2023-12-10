@@ -16,18 +16,8 @@
         "NodeInstance": "HdrInstance0"
       },
       {
-        "NodeName": "com.xiaomi.plugin.depurple",
-        "NodeInstance": "DepurpleInstance0",
-        "NodePropertyId" : 1
-      },
-      {
         "NodeName": "com.xiaomi.plugin.ldc",
         "NodeInstance": "LDCInstance0"
-      },
-      {
-        "//": "com.xiaomi.plugin.miaiie",
-        "NodeName": "com.xiaomi.plugin.miaiie",
-        "NodeInstance": "MiAIIE"
       },
       {
           "NodeName": "com.xiaomi.plugin.skinbeautifier",
@@ -74,16 +64,6 @@
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance": "DepurpleInstance0"
-        }
-      },
-      {
-        "SrcPort": {
-          "PortId": 0,
-          "NodeInstance": "DepurpleInstance0"
-        },
-        "DstPort": {
-          "PortId": 0,
           "NodeInstance": "LDCInstance0"
         }
       },
@@ -91,16 +71,6 @@
         "SrcPort": {
           "PortId": 0,
           "NodeInstance": "LDCInstance0"
-        },
-        "DstPort": {
-          "PortId": 0,
-          "NodeInstance": "MiAIIE"
-        }
-      },
-      {
-        "SrcPort": {
-          "PortId": 0,
-          "NodeInstance": "MiAIIE"
         },
         "DstPort": {
           "PortId": 0,
